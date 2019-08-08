@@ -1,0 +1,45 @@
+/* $color-title: #0b0b0b;  */
+
+.page {
+  background-color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Paleta */
+
+.palettes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.palette {
+  width: 500px;
+  margin: auto;
+}
+
+.palette + .palette {
+  margin-top: 30px;
+}
+
+.palette__name {
+  font-style: italic;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.palette__colors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.palette__color {
+  padding-top: 99px;
+  height: 1px;
+  width: 100px;
+  overflow: hidden;
+}
+
+/* Listado de colores */
